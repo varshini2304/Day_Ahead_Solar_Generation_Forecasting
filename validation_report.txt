@@ -1,0 +1,18 @@
+Ellume day-ahead generation forecasting validation
+Cleaned training rows: 12604
+Validation rows: 1360
+Validation window: 2025-05-01 through 2025-06-30
+Split: chronological; no random shuffling
+Month-hour baseline MAE (kW): 317.6164
+Month-hour baseline RMSE (kW): 809.8356
+ExtraTrees MAE (kW): 213.2075
+ExtraTrees RMSE (kW): 634.4116
+ExtraTrees R2: 0.961906
+
+Five largest absolute validation errors:
+          timestamp    timestamp_parsed  actual_kw  predicted_kw  absolute_error_kw
+2025-05-14 12:00:00 2025-05-14 12:00:00       0.00   9080.910200        9080.910200
+2025-05-14 11:00:00 2025-05-14 11:00:00       0.00   8915.975832        8915.975832
+2025-05-14 13:00:00 2025-05-14 13:00:00      -9.05   8527.198495        8536.248495
+2025-05-14 10:00:00 2025-05-14 10:00:00       0.00   7822.676526        7822.676526
+2025-05-14 14:00:00 2025-05-14 14:00:00      -4.51   7315.326582        7319.836582
