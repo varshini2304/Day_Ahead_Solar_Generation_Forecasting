@@ -28,6 +28,9 @@ htmlcov/
 .vscode/
 .idea/
 
+# Tool-specific local configuration
+.sf/
+
 # Operating system files
 .DS_Store
 Thumbs.db
@@ -36,6 +39,10 @@ Desktop.ini
 # Logs
 *.log
 
-# Temporary files
+# Temporary and backup files
 *.tmp
 *.bak
+*~
+
+TASK_TRACKER.md
+WALKTHROUGH_SCRIPT.md
