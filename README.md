@@ -1,4 +1,4 @@
-# Ellume AI Engineer Take-Home — Day-Ahead Solar Generation Forecasting
+#  Day-Ahead Solar Generation Forecasting
 
 ## Goal
 Forecast hourly AC power export (kW) for the supplied test timestamps using only information available at day-ahead forecast time.
